@@ -22,6 +22,8 @@ A substring is a contiguous sequence of characters in a string.
 
 ## Example 1
 
+![Image](https://assets.leetcode.com/uploads/2021/06/12/833-ex1.png)
+
 Input: s = "abcd", indices = [0, 2], sources = ["a", "cd"], targets = ["eee", "ffff"]
 
 Output: "eeebffff"

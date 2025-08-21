@@ -36,6 +36,8 @@ Explanation:
 
 ## Example 2
 
+![Image](https://assets.leetcode.com/uploads/2021/06/12/833-ex2-1.png)
+
 Input: s = "abcd", indices = [0, 2], sources = ["ab","ec"], targets = ["eee","ffff"]
 
 Output: "eeecd"

@@ -19,7 +19,7 @@ This repository contains my solutions to problems from [LeetCode](https://leetco
 Each solution is organized by problem name or number. Wherever possible, I've included:
 - Problem description
 - Images (if given on official site)
-- Code solution
+- Code solution with comments
 
 ## Languages Used
 

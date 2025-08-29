@@ -22,8 +22,6 @@ Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
  
 ### Constraints
 
-1 <= nums.length <= 2 * 104
-
--10 <= nums[i] <= 10
-
-The product of any subarray of nums is guaranteed to fit in a 32-bit integer.
+- 1 <= nums.length <= 2 * 104
+- -10 <= nums[i] <= 10
+- The product of any subarray of nums is guaranteed to fit in a 32-bit integer.

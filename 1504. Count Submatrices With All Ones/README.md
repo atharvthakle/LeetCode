@@ -4,11 +4,7 @@ Given an m x n binary matrix mat, return the number of submatrices that have all
 
 ## Example 1
 
-    1        0        1
-    
-    1        1        0
-    
-    1        1        0
+![Image](https://assets.leetcode.com/uploads/2021/10/27/ones1-grid.jpg)
 
 Input: mat = [[1,0,1],[1,1,0],[1,1,0]]
 
@@ -30,11 +26,7 @@ Total number of rectangles = 6 + 2 + 3 + 1 + 1 = 13.
 
 ## Example 2
 
-    0        1        1        0
-    
-    0        1        1        1
-
-    1        1        1        0
+![Image](https://assets.leetcode.com/uploads/2021/10/27/ones2-grid.jpg)
 
 Input: mat = [[0,1,1,0],[0,1,1,1],[1,1,1,0]]
 
@@ -60,6 +52,5 @@ Total number of rectangles = 8 + 5 + 2 + 4 + 2 + 2 + 1 = 24.
 
 ### Constraints
 
-1 <= m, n <= 150
-
-mat[i][j] is either 0 or 1.
+- 1 <= m, n <= 150
+- mat[i][j] is either 0 or 1.

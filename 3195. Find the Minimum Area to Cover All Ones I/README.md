@@ -30,8 +30,6 @@ The smallest rectangle has both height and width 1, so its area is 1 * 1 = 1.
 
 ### Constraints
 
-1 <= grid.length, grid[i].length <= 1000
-
-grid[i][j] is either 0 or 1.
-
-The input is generated such that there is at least one 1 in grid.
+- 1 <= grid.length, grid[i].length <= 1000
+- grid[i][j] is either 0 or 1.
+- The input is generated such that there is at least one 1 in grid.

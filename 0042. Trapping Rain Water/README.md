@@ -20,8 +20,6 @@ Output: 9
  
 ### Constraints
 
-n == height.length
-
-1 <= n <= 2 * 10^4
-
-0 <= height[i] <= 10^5
+- n == height.length
+- 1 <= n <= 2 * 10^4
+- 0 <= height[i] <= 10^5

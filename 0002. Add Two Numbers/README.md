@@ -6,9 +6,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 ## Example 1
 
-    2 --> 4 --> 3
-    5 --> 6 --> 4
-    7 --> 0 --> 8
+![Image](https://assets.leetcode.com/uploads/2020/10/02/addtwonumber1.jpg)
 
 Input: l1 = [2,4,3], l2 = [5,6,4]
 
@@ -30,8 +28,6 @@ Output: [8,9,9,9,0,0,0,1]
 
 ###  Constraints
 
-The number of nodes in each linked list is in the range [1, 100].
-
-0 <= Node.val <= 9
-
-It is guaranteed that the list represents a number that does not have leading zeros.
+- The number of nodes in each linked list is in the range [1, 100].
+- 0 <= Node.val <= 9
+- It is guaranteed that the list represents a number that does not have leading zeros.

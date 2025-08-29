@@ -32,10 +32,7 @@ Explanation: The substrings "u", "uc", and "uck" match the pattern.
 
 ### Constraints
 
-1 <= s.length <= 50
-
-1 <= p.length <= 50 
-
-s contains only lowercase English letters.
-
-p contains only lowercase English letters and exactly one '*'
+- 1 <= s.length <= 50
+- 1 <= p.length <= 50 
+- s contains only lowercase English letters.
+- p contains only lowercase English letters and exactly one '*'

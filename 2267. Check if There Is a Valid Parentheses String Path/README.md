@@ -33,6 +33,8 @@ Note that there may be other valid parentheses string paths.
 
 ## Example 2
 
+![Image](https://assets.leetcode.com/uploads/2022/03/15/example2drawio.png)
+
 Input: grid = [[")",")"],["(","("]]
 
 Output: false

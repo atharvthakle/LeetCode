@@ -22,6 +22,5 @@ Output: -6
 
 ### Constraints
 
-3 <= nums.length <= 10^4
-
--1000 <= nums[i] <= 1000
+- 3 <= nums.length <= 10^4
+- -1000 <= nums[i] <= 1000

@@ -18,12 +18,8 @@ Output: [1,2,3,4]
  
 ### Constraints
 
-• m == mat.length
-
-• n == mat[i].length
-
-• 1 <= m, n <= 10^4
-
-• 1 <= m * n <= 10^4
-
-• -10^5 <= mat[i][j] <= 10^5
+- m == mat.length
+-  n == mat[i].length
+- 1 <= m, n <= 10^4
+- 1 <= m * n <= 10^4
+- -10^5 <= mat[i][j] <= 10^5

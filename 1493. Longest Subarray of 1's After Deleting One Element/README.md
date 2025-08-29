@@ -30,6 +30,5 @@ Explanation: You must delete one element.
  
 ### Constraints
 
-• 1 <= nums.length <= 105
-
-• nums[i] is either 0 or 1.
+- 1 <= nums.length <= 105
+- nums[i] is either 0 or 1.

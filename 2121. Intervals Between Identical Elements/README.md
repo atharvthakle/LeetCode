@@ -43,5 +43,6 @@ Explanation:
 - 1 <= n <= 105
 - 1 <= arr[i] <= 105
  
+### Note
 
-Note: This question is the same as 2615: Sum of Distances.
+This question is the same as [2615](https://leetcode.com/problems/sum-of-distances/description/)

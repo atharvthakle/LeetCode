@@ -13,7 +13,11 @@ Note that Alice can only build a fence with Alice's position as the upper left c
 - With Alice at (3, 3) and Bob at (1, 1), Alice's position is not the upper left corner and Bob's position is not the lower right corner of the fence.
 - With Alice at (1, 3) and Bob at (1, 1), Bob's position is not the lower right corner of the fence.
 
+![Image](https://assets.leetcode.com/uploads/2024/01/04/example0alicebob-1.png)
+
 ## Example 1
+
+![Image](https://assets.leetcode.com/uploads/2024/01/04/example1alicebob.png)
 
 Input: points = [[1,1],[2,2],[3,3]]
 
@@ -22,6 +26,8 @@ Output: 0
 Explanation: There is no way to place Alice and Bob such that Alice can build a fence with Alice's position as the upper left corner and Bob's position as the lower right corner. Hence we return 0. 
 
 ## Example 2
+
+![Image](https://assets.leetcode.com/uploads/2024/02/04/example2alicebob.png)
 
 Input: points = [[6,2],[4,4],[2,6]]
 
@@ -35,6 +41,8 @@ Explanation: There are two ways to place Alice and Bob such that Alice will not 
 You cannot place Alice at (2, 6) and Bob at (6, 2) because the person at (4, 4) will be inside the fence.
 
 ## Example 3
+
+![Image](https://assets.leetcode.com/uploads/2024/02/04/example4alicebob.png)
 
 Input: points = [[3,1],[1,3],[1,1]]
 

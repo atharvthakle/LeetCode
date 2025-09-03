@@ -26,3 +26,8 @@ Output: false
 - -10^4 <= nums[i] <= 10^4
 - nums is guaranteed to be rotated at some pivot.
 - -10^4 <= target <= 10^4
+
+
+### Follow up
+
+This problem is similar to [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/), but nums may contain duplicates. Would this affect the runtime complexity? How and why?

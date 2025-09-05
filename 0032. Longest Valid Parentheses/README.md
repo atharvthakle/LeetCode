@@ -4,6 +4,8 @@ Given a string containing just the characters '(' and ')', return the length of 
 
 ## Example 1
 
+![Image](https://assets.leetcode.com/uploads/2021/03/14/itinerary1-graph.jpg)
+
 Input: s = "(()"
 
 Output: 2
@@ -11,6 +13,8 @@ Output: 2
 Explanation: The longest valid parentheses substring is "()".
 
 ## Example 2
+
+![Image](https://assets.leetcode.com/uploads/2021/03/14/itinerary2-graph.jpg)
 
 Input: s = ")()())"
 

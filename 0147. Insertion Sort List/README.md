@@ -14,11 +14,15 @@ The following is a graphical example of the insertion sort algorithm. The partia
 
 ## Example 1
 
+![Image](https://assets.leetcode.com/uploads/2021/03/04/sort1linked-list.jpg)
+
 Input: head = [4,2,1,3]
 
 Output: [1,2,3,4]
 
 ## Example 2
+
+![Image](https://assets.leetcode.com/uploads/2021/03/04/sort2linked-list.jpg)
 
 Input: head = [-1,5,3,4,0]
 

@@ -28,8 +28,10 @@ Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 - -2^31 <= matrix[i][j] <= 2^31 - 1
  
 
-Follow up:
+### Follow up
 
 A straightforward solution using O(mn) space is probably a bad idea.
+
 A simple improvement uses O(m + n) space, but still not the best solution.
+
 Could you devise a constant space solution?

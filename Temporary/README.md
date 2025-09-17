@@ -4,12 +4,13 @@ Build a responsive web app UI for **Frevo** — a Gen Z-first fintech platform t
 - Use given images for image-based logos and titles.
 - Use 'Logo.png' for the logo.
 - Use 'Frevo.png' for the title "FREVO" on home page and wherever needed.
-- Home Page: Display the full FREVO logo image prominently at the top center.
+- Home Page: Display the full FREVO logo image prominently at the top center. Use gradients and background elements for home page.
+- Give a scroll transition for Home Page.
 - Navigation Bar (corner/compact mode): Logo at one side and the tabs at other side.
   
 ### Design Philosophy
-- Style: Dark themed, Fast, gamified, colorful but minimal, use dark gradients, do not overdo it.
-- Colors: Use dark colours but do not overdo, use gradients for backgrounds o elements (whatever suits the best), make it dark aesthetic.
+- Style: Dark themed, Fast, gamified, colorful but minimal, use dark gradients, make the app dark aesthetic...modern and attractive design.
+- Colors: Use dark gradients and colours, use modern gradients for backgrounds or elements (whatever suits the best), make it dark aesthetic.
 - Typography: Rounded modern font (Poppins/Inter).
 - Visuals: Floating cards, donut & timeline charts, playful microcopy (e.g., “Nice save! You just leveled up your Vault 🎉”).
 

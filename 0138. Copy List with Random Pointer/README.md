@@ -17,7 +17,7 @@ Your code will only be given the head of the original linked list.
 
 ## Example 1
 
-[Image](https://assets.leetcode.com/uploads/2019/12/18/e1.png)
+[Image!](https://assets.leetcode.com/uploads/2019/12/18/e1.png)
 
 Input: head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
 
@@ -25,7 +25,7 @@ Output: [[7,null],[13,0],[11,4],[10,2],[1,0]]
 
 ## Example 2
 
-[Image](https://assets.leetcode.com/uploads/2019/12/18/e2.png)
+[Image!](https://assets.leetcode.com/uploads/2019/12/18/e2.png)
 
 Input: head = [[1,1],[2,1]]
 
@@ -33,7 +33,7 @@ Output: [[1,1],[2,1]]
 
 ## Example 3
 
-[Image](https://assets.leetcode.com/uploads/2019/12/18/e3.png)
+[Image!](https://assets.leetcode.com/uploads/2019/12/18/e3.png)
 
 Input: head = [[3,null],[3,0],[3,null]]
 

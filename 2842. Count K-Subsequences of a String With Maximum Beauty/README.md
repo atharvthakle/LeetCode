@@ -12,9 +12,9 @@ For example, consider s = "abbbdd" and k = 2:
 
 - f('a') = 1, f('b') = 3, f('d') = 2
 - Some k-subsequences of s are:
- - "abbbdd" -> "ab" having a beauty of f('a') + f('b') = 4
- - "abbbdd" -> "ad" having a beauty of f('a') + f('d') = 3
- - "abbbdd" -> "bd" having a beauty of f('b') + f('d') = 5
+  - "abbbdd" -> "ab" having a beauty of f('a') + f('b') = 4
+  - "abbbdd" -> "ad" having a beauty of f('a') + f('d') = 3
+  - "abbbdd" -> "bd" having a beauty of f('b') + f('d') = 5
 
 Return an integer denoting the number of k-subsequences whose beauty is the maximum among all k-subsequences. Since the answer may be too large, return it modulo 109 + 7.
 

@@ -1,0 +1,15 @@
+#include <unordered_set>
+using namespace std;
+
+class Solution {
+public:
+    int minimumOperations(vector<int>& nums) {
+        unordered_set<int> distinct;
+        
+        for (int num : nums) {
+            if (num > 0) distinct.insert(num);
+        }
+        
+        return distinct.size();
+    }
+};

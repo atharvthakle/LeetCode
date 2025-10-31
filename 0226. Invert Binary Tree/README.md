@@ -12,7 +12,7 @@ Output: [4,7,2,9,6,3,1]
 
 ## Example 2
 
-[!Image](https://assets.leetcode.com/uploads/2021/03/14/invert2-tree.jpg)
+![Image](https://assets.leetcode.com/uploads/2021/03/14/invert2-tree.jpg)
 
 Input: root = [2,1,3]
 

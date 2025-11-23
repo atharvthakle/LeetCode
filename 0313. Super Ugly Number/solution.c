@@ -4,10 +4,10 @@
 int nthSuperUglyNumber(int n, int* primes, int primesSize) {
     int* ugly = (int*)malloc(sizeof(int) * n);
     int* idx = (int*)malloc(sizeof(int) * primesSize);
-    int* next = (int*)malloc(sizeof(int) * primesSize);
+    long long* next = (long long*)malloc(sizeof(long long) * primesSize); // use long long
     
     for (int i = 0; i < primesSize; i++) {
-        idx[i] = 0;       // pointer for each prime
+        idx[i] = 0;          
         next[i] = primes[i]; // next multiple of prime[i]
     }
     
@@ -15,17 +15,17 @@ int nthSuperUglyNumber(int n, int* primes, int primesSize) {
     
     for (int i = 1; i < n; i++) {
         // Find the next ugly number
-        int nextUgly = INT_MAX;
+        long long nextUgly = LLONG_MAX;
         for (int j = 0; j < primesSize; j++) {
             if (next[j] < nextUgly) nextUgly = next[j];
         }
-        ugly[i] = nextUgly;
+        ugly[i] = (int)nextUgly; // safe to cast
         
         // Update pointers for primes that match nextUgly
         for (int j = 0; j < primesSize; j++) {
             if (next[j] == nextUgly) {
                 idx[j]++;
-                next[j] = ugly[idx[j]] * primes[j];
+                next[j] = (long long)ugly[idx[j]] * primes[j]; // use long long multiplication
             }
         }
     }

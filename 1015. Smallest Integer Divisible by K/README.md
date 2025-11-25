@@ -32,4 +32,4 @@ Explanation: The smallest answer is n = 111, which has length 3.
  
 ### Constraints
 
-- 1 <= k <= 10^5
+1 <= k <= 10^5

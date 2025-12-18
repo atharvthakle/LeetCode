@@ -28,7 +28,7 @@ Output: 10
 
 Explanation:
 
-| Modification | Strategy | Profit | Calculation | Profit |
+| Modification | Strategy | Profit Calculation | Profit |
 | ------------ | -------- | ------ | ----------- | ------ |
 | Original | [-1, 0, 1]	| (-1 × 4) + (0 × 2) + (1 × 8) = -4 + 0 + 8 | 4 |
 | Modify | [0, 1]	[0, 1, 1] | (0 × 4) + (1 × 2) + (1 × 8) = 0 + 2 + 8 | 10 |
@@ -44,7 +44,7 @@ Output: 9
 
 Explanation:
 
-| Modification | Strategy | Profit | Calculation | Profit |
+| Modification | Strategy | Profit Calculation | Profit |
 | ------------ | -------- | ------ | ----------- | ------ |
 | Original | [1, 0, 1]	| (1 × 5) + (1 × 4) + (0 × 3) = 5 + 4 + 0 | 9 |
 | Modify | [0, 1, 0] | (0 × 5) + (1 × 4) + (0 × 3) = 0 + 4 + 0 | 4 |
@@ -56,6 +56,6 @@ Thus, the maximum possible profit is 9, which is achieved without any modificati
 
 - 2 <= prices.length == strategy.length <= 10^5
 - 1 <= prices[i] <= 10^5
--1 <= strategy[i] <= 1
-2 <= k <= prices.length
-k is even
+- 1 <= strategy[i] <= 1
+- 2 <= k <= prices.length
+- k is even

@@ -40,6 +40,6 @@ Output: true
 
 Explanation: Fill both jugs. The total amount of water in both jugs is equal to 3 now.
 
-$$$ Constraints
+### Constraints
 
 1 <= x, y, target <= 10^3

@@ -24,6 +24,10 @@ Explanation: The figures above represent the grid at every state.
 
 ![Image](https://assets.leetcode.com/uploads/2021/06/10/ringofgrid5.png)
 
+![Image](https://assets.leetcode.com/uploads/2021/06/10/ringofgrid6.png)
+
+![Image](https://assets.leetcode.com/uploads/2021/06/10/ringofgrid7.png)
+
 Input: grid = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]], k = 2
 
 Output: [[3,4,8,12],[2,11,10,16],[1,7,6,15],[5,9,13,14]]

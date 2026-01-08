@@ -26,8 +26,18 @@ Each solution is organized by problem name or number. Wherever possible, I've in
 - Python
 - C
 - C++
+- C#
+- Go
 
-(Each language is used depending on the problem and what was more suitable for me)
+**Note:** Each language is used depending on the problem and what was more suitable for me.
+
+For example:
+
+Hard problems - Python
+
+Medium problems - C, now using C# after crossing 400 questions
+
+Easy problems - C++, now using Go after crossing 400 questions
 
 ## Progress
 

@@ -19,10 +19,11 @@ Explanation:
 
 Initially we are at (0, 0) and cost is 0.
 
-Current Position	Move	New Position	Total Cost
-(0, 0)	Move Down	(1, 0)	0 + 2 = 2
-(1, 0)	Move Right	(1, 1)	2 + 5 = 7
-(1, 1)	Teleport to (2, 2)	(2, 2)	7 + 0 = 7
+| Current Position | Move | New Position | Total Cost |
+|--------|----------|---------|----------|
+| (0, 0) | Move Down | (1, 0)	| 0 + 2 = 2 |
+| (1, 0) | Move Right | (1, 1) | 2 + 5 = 7 |
+| (1, 1) | Teleport to | (2, 2) |	7 + 0 = 7 |
 
 The minimum cost to reach bottom-right cell is 7.
 

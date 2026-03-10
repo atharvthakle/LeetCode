@@ -5,28 +5,22 @@ public class Solution {
         long[,] dp0 = new long[zero + 1, one + 1];
         long[,] dp1 = new long[zero + 1, one + 1];
 
-        if (zero > 0) dp0[1, 0] = 1;
-        if (one > 0) dp1[0, 1] = 1;
+        dp0[0,0] = dp1[0,0] = 1;
 
         for (int i = 0; i <= zero; i++) {
             for (int j = 0; j <= one; j++) {
 
-                if (i > 0) {
-                    dp0[i, j] = (dp0[i, j] + dp1[i - 1, j]) % MOD;
-
-                    if (i - limit - 1 >= 0)
-                        dp0[i, j] = (dp0[i, j] - dp1[i - limit - 1, j] + MOD) % MOD;
+                for (int k = 1; k <= limit && k <= i; k++) {
+                    dp0[i,j] = (dp0[i,j] + dp1[i-k,j]) % MOD;
                 }
 
-                if (j > 0) {
-                    dp1[i, j] = (dp1[i, j] + dp0[i, j - 1]) % MOD;
-
-                    if (j - limit - 1 >= 0)
-                        dp1[i, j] = (dp1[i, j] - dp0[i, j - limit - 1] + MOD) % MOD;
+                for (int k = 1; k <= limit && k <= j; k++) {
+                    dp1[i,j] = (dp1[i,j] + dp0[i,j-k]) % MOD;
                 }
             }
         }
 
-        return (int)((dp0[zero, one] + dp1[zero, one]) % MOD);
+        long ans = (dp0[zero,one] + dp1[zero,one]) % MOD;
+        return (int)ans;
     }
 }

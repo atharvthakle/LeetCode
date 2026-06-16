@@ -36,6 +36,7 @@ Output: ""
 
 Explanation:
 
+|---|------|-----------|----------------|
 | i	| s[i]	| Operation	| Current result |
 | 0	| 'z'	| Append 'z'	| "z" |
 | 1	| '*'	| Remove the last character	| "" |

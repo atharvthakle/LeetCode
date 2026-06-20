@@ -43,4 +43,3 @@ class Solution:
             ans = max(ans, peak)
 
         return ans
-}

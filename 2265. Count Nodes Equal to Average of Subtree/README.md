@@ -11,8 +11,6 @@ Note:
 
 ![Image](https://assets.leetcode.com/uploads/2022/03/15/image-20220315203925-1.png)
 
-![Image]()
-
 Input: root = [4,8,5,0,1,null,6]
 
 Output: 5

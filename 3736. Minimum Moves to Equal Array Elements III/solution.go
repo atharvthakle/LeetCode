@@ -1,13 +1,13 @@
 func minMoves(nums []int) int {
-    minVal := nums[0]
+    maxVal := nums[0]
     sum := 0
 
     for _, num := range nums {
-        if num < minVal {
-            minVal = num
+        if num > maxVal {
+            maxVal = num
         }
         sum += num
     }
 
-    return sum - len(nums)*minVal
+    return len(nums)*maxVal - sum
 }
